@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Teste API",
     "scripts": {
-        "exec_test": "NODE_ENV=http://jsonplaceholder.typicode.com mocha test/test.js --reporter mochawesome"
+        "exec_test": "NODE_ENV=http://jsonplaceholder.typicode.com mocha test/test.js"
     },
     "author": "Darling",
     "license": "ISC",
