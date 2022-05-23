@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install supertest
+          name: install 
           command: "sudo npm install --safe"
       - run:
           name: install supertest
