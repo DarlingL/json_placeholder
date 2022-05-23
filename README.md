@@ -1,4 +1,4 @@
-# Json Placeholder
+# Json Placeholder [![CircleCI](https://circleci.com/gh/DarlingL/json_placeholder/tree/master.svg?style=svg)](https://circleci.com/gh/DarlingL/json_placeholder/tree/master)
 
 ## **Objetivo:**
   Teste de API/Contrato, realizando os seguintes cenários: 
