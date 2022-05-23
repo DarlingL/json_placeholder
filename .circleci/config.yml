@@ -7,11 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: update-npm
-          command: "sudo npm install -g npm"
-      - run:
-          name: install-packages
-          command: npm install --safe
+          name: install 
+          command: "sudo npm install --safe"
       - run:
           name: install supertest
           command: "sudo npm install supertest -g"
