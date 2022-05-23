@@ -8,6 +8,9 @@ jobs:
       - checkout
       - run:
           name: install supertest
+          command: "sudo npm install --safe"
+      - run:
+          name: install supertest
           command: "sudo npm install supertest -g"
       - run:
           name: install mocha
