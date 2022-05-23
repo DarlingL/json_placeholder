@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Teste API",
     "scripts": {
-        "exec_test": "NODE_ENV=http://jsonplaceholder.typicode.com mocha test/test.js"
+        "exec_test": "NODE_ENV=http://jsonplaceholder.typicode.com mocha test/test.js --reporter mochawesome"
     },
     "author": "Darling",
     "license": "ISC",
@@ -17,7 +17,7 @@
     },
     "devDependencies": {
         "@faker-js/faker": "^6.3.1",
-        "mochawesome": "",
+        "mochawesome": "^3.1.1",
         "supertest": "^6.2.3"
     }
 }

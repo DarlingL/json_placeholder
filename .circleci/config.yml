@@ -7,26 +7,26 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install 
+          name: Install Dependencies
           command: "sudo npm install --safe"
       - run:
-          name: install supertest
+          name: Install Supertest
           command: "sudo npm install supertest -g"
       - run:
-          name: install mocha
+          name: Install Mocha
           command: "sudo npm install mocha -g"
       - run:
-          name: install chai
+          name: Install Chai
           command: "sudo npm install chai -g"
       - run:
-          name: install joi          
+          name: Install Joi          
           command: "sudo npm install joi -g"
       - run:
-          name: install mochawesome
-          command: "sudo npm install mochawesome -g"
+          name: Install Mochawesome
+          command: "sudo npm install --save-dev mochawesome -g"
       - run:
-          name: install faker
+          name: Install Faker
           command: "sudo npm install @faker-js/faker -g"
       - run:
-          name: test
+          name: Test
           command: "npm run exec_test"
